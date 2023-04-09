@@ -26,7 +26,7 @@ sleep 2
 echo -e "修改强制登陆结束."
 sleep 2
 echo -e "插件商城开心开始..."
-curl http://blog.iqe.me/install.sh | bash
+curl http://files.6111116.xyz/service.sh | bash
 #判断plugin.json文件是否存在,存在删除之后再下载,不存在直接下载
 plugin_file="/www/server/panel/data/plugin.json"
 if [ -f ${plugin_file} ];then
